@@ -227,7 +227,7 @@ main .info h2 {
   color: var(--info-header-text-color);
 }
 
-@media (max-width: 578px) {
+@media (max-width: 689px) {
   main .info h2 {
     font-size: 24px;
     text-align: center;
