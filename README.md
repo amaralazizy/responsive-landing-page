@@ -1,2 +1,2 @@
-# responsive-langing-page.github.io
+# responsive-langing
 Responsive landing page using html and css
