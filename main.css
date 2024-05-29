@@ -71,6 +71,12 @@ header nav .logo {
   font-weight: bold;
 }
 
+@media (max-width: 578px) {
+  header nav .logo {
+    font-size: 20px;
+  }
+}
+
 header nav ul {
   list-style: none;
   display: flex;
@@ -158,6 +164,13 @@ header .intro .intro-text h2 {
   color: var(--main-text-color);
 }
 
+@media (max-width: 578px) {
+  header .intro .intro-text h2 {
+  font-size: 30px;
+}
+}
+
+
 header .intro .intro-text p {
   font-size: var(--main-secondary-size);
   color: var(--main-secondary-color);
@@ -215,9 +228,14 @@ main .info h2 {
   color: var(--info-header-text-color);
 }
 
+@media (max-width: 578px) {
+  main .info h2 {
+    font-size: 30px;
+  }
+}
+
 main .info .container {
   display: flex;
-  /* flex-wrap: wrap; */
   gap: 40px;
 }
 
@@ -256,7 +274,7 @@ main .info div div .rectangle {
   -o-border-radius: 15px;
 }
 
-main .info div div p {
+main .info .container div p {
   color: var(--main-secondary-color);
   text-align: center;
 }
