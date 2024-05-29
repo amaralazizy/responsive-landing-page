@@ -230,6 +230,7 @@ main .info h2 {
 @media (max-width: 578px) {
   main .info h2 {
     font-size: 24px;
+    text-align: center;
   }
 }
 
