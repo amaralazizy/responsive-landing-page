@@ -15,8 +15,8 @@
   --quote-text-size: 36px;
   --quote-text-color: #1f2937;
 
-  --section-padding: 30%;
-  --section-padding2: 20%;
+  --section-padding: 20%;
+  --section-padding2: 15%;
 }
 
 @media (max-width: 1100px) {
@@ -166,10 +166,9 @@ header .intro .intro-text h2 {
 
 @media (max-width: 578px) {
   header .intro .intro-text h2 {
-  font-size: 30px;
+    font-size: 30px;
+  }
 }
-}
-
 
 header .intro .intro-text p {
   font-size: var(--main-secondary-size);
