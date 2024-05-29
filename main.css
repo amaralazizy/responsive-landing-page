@@ -225,12 +225,12 @@ main .info {
 main .info h2 {
   font-size: var(--info-header-text-size);
   color: var(--info-header-text-color);
+  text-align: center;
 }
 
 @media (max-width: 689px) {
   main .info h2 {
     font-size: 24px;
-    text-align: center;
   }
 }
 
@@ -258,7 +258,7 @@ main .info .container div {
   }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 448px) {
   main .info .container div {
     flex-basis: 100%;
   }
